@@ -9,6 +9,8 @@
   "homepage": "https://github.com/xcl3721/dora-rpc",
   "require": {
     "php": ">=5.4.30",
+    "fastd/console": "3.0.x-dev",
+    "fastd/debug": "3.0.x-dev",
     "ext-swoole" : "1.8.*"
   },
   "autoload": {
@@ -16,6 +18,9 @@
       "DoraRPC\\": "src"
     }
   },
+  "bin": [
+    "dora"
+  ],
   "authors": [
     {
       "name": "ChangLong.Xu",
